@@ -1,0 +1,15 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_json = "1.0.151"
+scraper = "0.22"
+
+[dependencies.uuid]
+version = "1.26.1"
+# Lets you generate random UUIDs
+features = [
+    "v4",
+]
