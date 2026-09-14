@@ -75,4 +75,4 @@ or run the compiled binary directly.
 
 ## License
 
-TBD
+MIT — see [LICENSE](LICENSE). Free to use, modify, and distribute, as long as the copyright notice stays included.
