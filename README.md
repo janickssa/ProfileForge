@@ -58,4 +58,13 @@ ProfileForge.exe https://portal.azure.com/
 
 ## License
 
+
+## Todo
+- Add GUI for customization of opened tabs in new instance, and setting folder locations
+- Add installer GUI script with custom folders
+
+
+
 _Not yet specified._
+
+
