@@ -5,7 +5,9 @@ edition = "2024"
 
 [dependencies]
 serde_json = "1.0.151"
+serde = { version = "1", features = ["derive"] }
 scraper = "0.22"
+
 
 [dependencies.uuid]
 version = "1.26.1"
