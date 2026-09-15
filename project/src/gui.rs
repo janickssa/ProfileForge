@@ -67,6 +67,10 @@ impl eframe::App for MyEguiApp {
             let mut config = load_config("config.json");
             ui.heading("ProfileForge configuration UI");
             ui.label(format!("Chrome installation directory: {}", config.chrome_path));
+            ui.label(format!("Profiles path: {}", config.profiles_directory))
+
+
+
             if ui.button("Save").clicked() {
                 println!("Saving configuration...");
 
